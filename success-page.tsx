@@ -135,8 +135,8 @@ export default function SuccessPage({ userName, visitStatus }: SuccessPageProps)
         backgroundRepeat: "no-repeat",
         // --- BẮT ĐẦU KHU VỰC CÓ THỂ CHỈNH SỬA KÍCH THƯỚC MÀN HÌNH ---
         // Điều chỉnh kích thước cho iPhone 15 (393px x 852px)
-        maxWidth: "393px",
-        minHeight: "852px",
+        maxWidth: "414px",
+        minHeight: "896px",
         // --- KẾT THÚC KHU VỰC CÓ THỂ CHỈNH SỬA KÍCH THƯỚC MÀN HÌNH ---
         margin: "0 auto",
       }}
@@ -228,7 +228,7 @@ export default function SuccessPage({ userName, visitStatus }: SuccessPageProps)
                         // top: "200px",     // Rất xa checkmark
 
                         // VỊ TRÍ NGANG (left):
-                        left: "50%", // Căn giữa
+                        left: "49%", // Căn giữa
                         // left: "20px",     // Bên trái
                         // right: "20px",    // Bên phải (thay left bằng right)
 
@@ -242,7 +242,7 @@ export default function SuccessPage({ userName, visitStatus }: SuccessPageProps)
                       {/* Text "进场成功" */}
                       <div className="font-medium text-lg mb-1 text-[rgba(92,92,92,1)]">进场成功</div>
                       {/* Thời gian hiển thị */}
-                      <div className="font-mono font-normal tracking-normal text-xs text-[rgba(92,92,92,1)]">
+                      <div className="font-mono font-normal tracking-normal text-[rgba(92,92,92,1)] text-sm">
                         {checkmarkTime ? formatRealTime(checkmarkTime) : formatRealTime(currentTime)}
                       </div>
                     </div>
