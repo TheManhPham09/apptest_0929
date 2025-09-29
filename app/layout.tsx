@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "员工吗",
   description: "Mobile QR Code Access Application",
-  viewport: "width=393, initial-scale=1, maximum-scale=1, user-scalable=no",
+  viewport: "width=414, initial-scale=1, maximum-scale=1, user-scalable=no",
     generator: 'v0.app'
 }
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="viewport" content="width=393, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta name="viewport" content="width=414, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
